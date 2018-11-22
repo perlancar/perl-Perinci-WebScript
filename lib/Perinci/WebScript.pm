@@ -87,6 +87,8 @@ sub BUILD {
 
 sub hook_before_run {}
 
+sub hook_after_get_meta {}
+
 sub hook_before_read_config_file {}
 
 sub hook_after_read_config_file {}
